@@ -1,8 +1,8 @@
-## Point-Pattern Synthesis using Gabor and Random Filters
+# Point-Pattern Synthesis using Gabor and Random Filters
 
 This repository contains the code for our paper:
 
-> [Point-Pattern Synthesis using Gabor and Random Filters](https://sampling.mpi-inf.mpg.de/publications/2022-huang-gabor/2022-huang-gabor.pdf)
+> [Point-Pattern Synthesis using Gabor and Random Filters](https://xchhuang.github.io/pps_gabor_random/paper.pdf)
 >
 > Xingchang Huang, Pooran Memari, Hans-Peter Seidel, Gurprit Singh
 > 
