@@ -11,14 +11,18 @@ This repository contains the code for our paper:
 For more details, please refer to our [project page](https://xchhuang.github.io/pps_gabor_random/index.html).
 
 ### Updates:
+* 10 July 2022: added installation guide with CPU
 * 27 June 2022: code released
 
 ### Prerequisites
 * Python 3.7.9
 * Pytorch 1.6.0
-* CUDA 10.1
+* matplotlib
+* scipy 
+* tqdm
+* scikit-learn
 
-You can follow the installation in Anaconda (tested in Windows 10):
+##### Installation with GPU (tested on Windows 10 with an NVIDIA GPU)
 ```
 conda create -n pps python=3.7
 conda activate pps
@@ -27,9 +31,21 @@ pip install matplotlib scipy tqdm
 pip install -U scikit-learn
 ```
 
+##### Installation with CPU (tested on MacOS, but much slower)
+```
+conda create -n pps_cpu python=3.7
+conda activate pps_cpu
+conda install pytorch==1.6.0 torchvision==0.7.0 -c pytorch
+pip install matplotlib scipy tqdm
+pip install -U scikit-learn
+```
+
+
 ### Structure
 * `test_data/init` : initialized poisson disk distributions for different patterns.
 * `test_data/testset_point` : exemplar single-class point patterns
+* `test_data/testset_disk` : exemplar disk patterns
+* `test_data/testset_multiattributes` : exemplar multi-attribute patterns
 * `src` : code
 
 ### Run
@@ -42,4 +58,18 @@ python main.py --logs=run --kernel_sigma1=1.0 --kernel_sigma2=2.6 --test_data=..
 
 The `results` folder will be automatically created and the outputs will be saved in `run` folder. Please find more commands in `src/scripts/run.sh`. `kernel_sigma1, kernel_sigma2` are two hyper-parameters `c1, c2` explained in the paper.
 
+### Results
+Note that the generated results might be close to the ones presented in the paper but not exactly the same, due to the differences between machines.
+
 ### Citation
+```
+@article {10.1111:cgf.14596,
+journal = {Computer Graphics Forum},
+title = {{Point-Pattern Synthesis using Gabor and Random Filters}},
+author = {Huang, Xingchang and Memari, Pooran and Seidel, Hans-Peter and Singh, Gurprit},
+year = {2022},
+publisher = {The Eurographics Association and John Wiley & Sons Ltd.},
+ISSN = {1467-8659},
+DOI = {10.1111/cgf.14596}
+}
+```
