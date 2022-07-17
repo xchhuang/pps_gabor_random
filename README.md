@@ -8,6 +8,8 @@ This repository contains the code for our paper:
 > 
 > Computer Graphics Forum (Proceedings of EGSR), 2022
 
+![teaser](teaser.png)
+
 For more details, please refer to our [project page](https://xchhuang.github.io/pps_gabor_random/index.html).
 
 ### Updates:
