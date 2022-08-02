@@ -66,12 +66,12 @@ Note that the generated results might be close to the ones presented in the pape
 ### Citation
 ```
 @article {huang22point,
-journal = {Computer Graphics Forum},
-title = {{Point-Pattern Synthesis using Gabor and Random Filters}},
-author = {Huang, Xingchang and Memari, Pooran and Seidel, Hans-Peter and Singh, Gurprit},
-year = {2022},
-publisher = {The Eurographics Association and John Wiley & Sons Ltd.},
-ISSN = {1467-8659},
-DOI = {10.1111/cgf.14596}
+    journal = {Computer Graphics Forum},
+    title = {{Point-Pattern Synthesis using Gabor and Random Filters}},
+    author = {Huang, Xingchang and Memari, Pooran and Seidel, Hans-Peter and Singh, Gurprit},
+    year = {2022},
+    publisher = {The Eurographics Association and John Wiley & Sons Ltd.},
+    ISSN = {1467-8659},
+    DOI = {10.1111/cgf.14596}
 }
 ```
