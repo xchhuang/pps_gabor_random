@@ -65,7 +65,7 @@ Note that the generated results might be close to the ones presented in the pape
 
 ### Citation
 ```
-@article {10.1111:cgf.14596,
+@article {huang22point,
 journal = {Computer Graphics Forum},
 title = {{Point-Pattern Synthesis using Gabor and Random Filters}},
 author = {Huang, Xingchang and Memari, Pooran and Seidel, Hans-Peter and Singh, Gurprit},
