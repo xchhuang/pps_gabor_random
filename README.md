@@ -64,6 +64,8 @@ The `results` folder will be automatically created and the outputs will be saved
 Note that the generated results might be close to the ones presented in the paper but not exactly the same, due to the differences between machines.
 
 ### Citation
+If you find this code useful please consider citing:
+
 ```
 @article {huang22point,
     journal = {Computer Graphics Forum},
@@ -75,3 +77,7 @@ Note that the generated results might be close to the ones presented in the pape
     DOI = {10.1111/cgf.14596}
 }
 ```
+
+### Acknowledgement
+This work builds upon [Point-Synthesis](https://github.com/phtu-cs/Point-Synthesis) and [DiffCompositing](https://github.com/preddy5/DiffCompositing). We thank the authors for releasing their code.
+
