@@ -13,6 +13,7 @@ This repository contains the code for our paper:
 For more details, please refer to our [project page](https://xchhuang.github.io/pps_gabor_random/index.html).
 
 ### Updates:
+* 31 August 2022: updated project page
 * 10 July 2022: added installation guide with CPU
 * 27 June 2022: code released
 
